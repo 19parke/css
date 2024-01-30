@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+ul, ol, li{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.RankingCard_contentBox__1OLp4 {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.RankingCard_order__2iEng {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.RankingCard_content__JPrld {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.Title_title__3kHxQ {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #212529;
+    height: 40px;
+}
+
+.RankingCard_infoWrapper__33IaF {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.RankingCard_infoStringWrapper__3tm7C {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+.InfoStringWrapper_infoString__2HtEW {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #00c4c4;
+}
+
+.RankingCard_thumbnailBox__2aMLT {
+    position: relative;
+    width: 120px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.RankingCard_thumbnail__XerZs {
+    border-radius: 4px;
+}
+
+.ThumbnailImage_container__3blWN img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
